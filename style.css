@@ -1,0 +1,42 @@
+#tempCalc {
+  font-family: Arial, sans-serif;
+  margin: 200px auto;
+  max-width: 500px;
+  background: #b74c4c;
+  height: 100%;
+  padding: 55px 50px 45px 55px;
+  border-radius: 10px;
+}
+#tempCalc input[type=number], #tempCalc select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#tempCalc input[type=number] {
+  margin-top: 25px;
+}
+#tempCalc input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#tempCalc input[type=submit]:hover {
+  background-color: #45a049;
+}
+#tempCalc #result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  #tempCalc input[type=submit], #tempCalc #result {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
